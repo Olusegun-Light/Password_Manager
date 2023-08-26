@@ -34,7 +34,8 @@ To run this application, you need to have Python installed on your system. The T
 3. Click the "Generate Password" button to generate a strong password. You can also input a custom password if desired.
 4. Click the "Add" button to save the website, email, and password details.
 5. A confirmation dialog will appear, showing the entered details. Click "OK" to save the data.
-6. The saved data will be stored in the `data.txt` file.
+6. Password saved to your clipboard.
+7. The saved data will be stored in the `data.txt` file.
 
 ## Customization
 
