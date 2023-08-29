@@ -7,7 +7,7 @@ Password Manager is a simple GUI application built using the Tkinter library in 
 ## Features
 
 - Password generation with a mix of letters (uppercase and lowercase), numbers, and symbols.
-- Secure storage of website, email, and password details.
+- Store passwords along with corresponding website URLs and email addresses.
 - User-friendly UI with a logo and input fields.
 - Option to generate a password or input a custom one.
 - Confirmation dialog before saving credentials.
@@ -33,14 +33,27 @@ To run this application, you need to have Python installed on your system. The T
 2. Optionally, modify the default email/username in the "Email/Username" field.
 3. Click the "Generate Password" button to generate a strong password. You can also input a custom password if desired.
 4. Click the "Add" button to save the website, email, and password details.
-5. A confirmation dialog will appear, showing the entered details. Click "OK" to save the data.
-6. Password saved to your clipboard.
-7. The saved data will be stored in the `data.txt` file.
+5. Password saved to your clipboard.
+6. To retrieve a password, enter the website URL and click the "Search" button.
+7. Your password will be displayed in a popup message.
+8. The saved data will be stored in the `data.json` file.
 
 ## Customization
 
 - Modify the lists of letters, numbers, and symbols in the `generate_password` function to adjust the password complexity.
 - You can customize the `logo.png` image to match your preferences.
+
+## Data Storage
+
+The passwords and associated data are stored in the `data.json` file. Make sure to keep this file secure and backed up.
+
+## Note
+
+1. This application is for personal use and is not recommended for managing critical passwords.
+2. Make sure to replace the example email in the email entry field with your own email address.
+3. The logo image should be placed in the same directory as the script with the name "logo.png".
+
+Feel free to customize and extend this password manager according to your needs.
 
 ## Security Note
 
